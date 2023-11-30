@@ -9,9 +9,11 @@ class Myshape:
     def square(self):
         total=self.slider*self.slider
         print(total)
+
     def Rectangle(self):
         total1=self.length*self.witdth
         print(total1)
+        
     def Circle(self):
         total2=self.radius*self.radius*3.14
         print(total2)
