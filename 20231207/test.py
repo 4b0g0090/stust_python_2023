@@ -21,11 +21,12 @@ class Student:
         print("Age:",self.age)
         print("ID:",self.ID)    
 
-if __name__=="__name__":
+if __name__=="__main__":
     Student1=Student("Jay",20,"s123")
     print(Student1.Student_name)
-    Student.Student_name="peter"
     
+    Student1.Student_name="peter"
+    print(Student1.Student_name)
 
 
 
